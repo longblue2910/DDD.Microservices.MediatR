@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{8FDDF381-0912-49A7-91CA-7D5E4E50BDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C44FD9C1-0312-4257-B92A-79AA8BB6A5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2906ED4E-D55F-4FFF-B87D-4525F2536B8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDDF381-0912-49A7-91CA-7D5E4E50BDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDDF381-0912-49A7-91CA-7D5E4E50BDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDDF381-0912-49A7-91CA-7D5E4E50BDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDDF381-0912-49A7-91CA-7D5E4E50BDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44FD9C1-0312-4257-B92A-79AA8BB6A5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44FD9C1-0312-4257-B92A-79AA8BB6A5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44FD9C1-0312-4257-B92A-79AA8BB6A5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44FD9C1-0312-4257-B92A-79AA8BB6A5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2906ED4E-D55F-4FFF-B87D-4525F2536B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2906ED4E-D55F-4FFF-B87D-4525F2536B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2906ED4E-D55F-4FFF-B87D-4525F2536B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2906ED4E-D55F-4FFF-B87D-4525F2536B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13BA69C-F6C2-4BC5-98E6-C113330C35C0}
+	EndGlobalSection
+EndGlobal
