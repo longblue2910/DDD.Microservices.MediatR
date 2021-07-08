@@ -1,4 +1,5 @@
 ﻿using Domain.AggregateModels.Entities;
+using Domain.AggregateModels.Entities.Products;
 using Domain.AggregateModels.Entities.RoleModels;
 using Domain.AggregateModels.Entities.UserModels;
 using Infrastructure.EntitesConfig;
@@ -19,8 +20,12 @@ namespace Infrastructure.Data
         public DbSet<User> Users { get; set; }
         public DbSet<FileOnDatabaseModel> FileOnDatabase { get; set; }
         public DbSet<FileOnFileSystemModel> FileOnFileSystems { get; set; }
+        //
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Image> Images { get; set; }
+        public DbSet<Brand> Brands { get; set; }
 
-        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

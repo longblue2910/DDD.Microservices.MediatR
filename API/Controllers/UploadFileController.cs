@@ -1,28 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Domain.AggregateModels.Entities;
+﻿using Domain.AggregateModels.Entities;
 using Domain.Infrastructures.Service.FileService;
-using Domain.Interfaces;
-using Infrastructure.Data;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using static Domain.AggregateModels.Entities.FileModel;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FileController : Controller
+    public class UploadFileController : Controller
     {
         private readonly IFileService fileService;
 
-        public FileController(IFileService fileService)
+        public UploadFileController(IFileService fileService)
         {
             this.fileService = fileService;
         }
